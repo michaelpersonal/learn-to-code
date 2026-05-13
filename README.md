@@ -36,6 +36,8 @@ Copy `codex/SKILL.md` into your Codex skills directory:
 mkdir -p ~/.codex/skills/learn-to-code
 curl -o ~/.codex/skills/learn-to-code/SKILL.md \
   https://raw.githubusercontent.com/michaelpersonal/learn-to-code/main/codex/SKILL.md
+curl -o ~/.codex/skills/learn-to-code/LEARNING-MAP.md \
+  https://raw.githubusercontent.com/michaelpersonal/learn-to-code/main/codex/LEARNING-MAP.md
 ```
 
 The Codex version overrides Codex's default file-editing behavior while the skill is active — it will ask questions instead of implementing.
